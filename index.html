@@ -4,20 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akbar Taxi Services</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akbar Taxi Services</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="cab.css">
+    <script src="cab.js"></script>
+    <meta name="description" content="Book a reliable and affordable taxi in Bangalore. 24/7 cab services for local, airport, and outstation travel.">
+    <meta name="keywords" content="Bangalore taxi, cab booking, airport cab, outstation taxi">
+</head>
     <link rel="stylesheet" href="cab.css">
     <meta name="description" content="Book a reliable and affordable taxi in Bangalore. 24/7 cab services for local, airport, and outstation travel.">
     <meta name="keywords" content="Bangalore taxi, cab booking, airport cab, outstation taxi">
 </head>
 <body>
-
-    <!-- Navbar -->
     <nav class="navbar">
         <h1>Akbar Taxi Services 24/7</h1>
-        <button class="about-btn" onclick="openAbout()">About Us</button>
     </nav>
 
-    <!-- Hero Section -->
+
+    
     <section class="hero">
         <div class="hero-content">
             <h2>Your Trusted Cab Service in Bangalore</h2>
@@ -25,184 +32,188 @@
         </div>
     </section>
 
-    <!-- About Us -->
-    <section class="about-us">
-        <div class="about-content">
-            <h2>About Us – Your Trusted Travel Partner 🚖</h2>
-            <p>At <strong>Akbar Taxi Services</strong>, we prioritize <strong>comfort, reliability, and excellence</strong> in every ride. Whether you need a <strong>quick city ride, an airport transfer, or an outstation journey</strong>, we ensure a seamless and stress-free travel experience.</p>
-            
-            <div class="about-highlights">
-                <div class="highlight">
-                    <i class="fas fa-car"></i>
-                    <h3>Wide Range of Vehicles</h3>
-                    <p>From budget-friendly rides to luxury cars, we have it all.</p>
-                </div>
-                <div class="highlight">
-                    <i class="fas fa-user-shield"></i>
-                    <h3>Safe & Secure Rides</h3>
-                    <p>Our drivers are professionally trained to ensure your safety.</p>
-                </div>
-                <div class="highlight">
-                    <i class="fas fa-clock"></i>
-                    <h3>24/7 Availability</h3>
-                    <p>We operate round the clock to serve you anytime, anywhere.</p>
-                </div>
-                <div class="highlight">
-                    <i class="fas fa-tags"></i>
-                    <h3>Transparent Pricing</h3>
-                    <p>No hidden charges – pay what you see.</p>
-                </div>
-            </div>
 
-            <p>🚗 <strong>Your Journey, Our Responsibility!</strong></p>
-            <div><h3>Prices may vary as per the booking location</h3></div>
-        </div>
-    </section>    
+<!-- About us -->
 
-    <!-- Fare Details -->
-    <section class="fare-details">
-        <h3>Fare Details</h3>
-        <table class="fare-table">
-            <thead>
-                <tr>
-                    <th>Vehicle</th>
-                    <th>Fare for 4 Hrs</th>
-                    <th>Fare for 8 Hrs</th>
-                    <th>Fare Extra. Hrs</th>
-                    <th>Fare Extra. Kms</th>
-                    <th>To Airport</th>
-                    <th>From Airport</th>
-                    <th>Fare Per Km</th>
-                    <th>Driver Bata</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Dizire / Etios / Logan</td>
-                    <td>₹1200/-</td>
-                    <td>₹2200/-</td>
-                    <td>₹140/-</td>
-                    <td>₹13/-</td>
-                    <td>₹1000/-</td>
-                    <td>₹1000/-</td>
-                    <td>₹12/-</td>
-                    <td>₹350/-</td>
-                </tr>
-                <tr>
-                    <td>Innova</td>
-                    <td>₹1800/-</td>
-                    <td>₹3000/-</td>
-                    <td>₹200/-</td>
-                    <td>₹18/-</td>
-                    <td>₹2000/-</td>
-                    <td>₹2000/-</td>
-                    <td>₹16/-</td>
-                    <td>₹400/-</td>
-                </tr>
-                <tr>
-                    <td>Innova Crysta</td>
-                    <td>₹1500/-</td>
-                    <td>₹3300/-</td>
-                    <td>₹200/-</td>
-                    <td>₹20/-</td>
-                    <td>₹2000/-</td>
-                    <td>₹2000/-</td>
-                    <td>₹18/-</td>
-                    <td>₹400/-</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-
-    <!-- Booking Form -->
-    <section class="booking-form-container">
-        <h2>Book Your Ride 🚖</h2>
-        <form id="booking-form">
-            <div class="form-group">
-                <label for="ride-type"><i class="fas fa-car"></i> Ride Type</label>
-                <select id="ride-type" required>
-                    <option value="">Select Ride Type</option>
-                    <option value="local">Local</option>
-                    <option value="airport">Airport</option>
-                    <option value="outstation">Outstation</option>
-                </select>
+<section class="about-us">
+    <div class="about-content">
+        <h2>About Us – Your Trusted Travel Partner 🚖</h2>
+        <p>At <strong>Akbar Taxi Services</strong>, we prioritize <strong>comfort, reliability, and excellence</strong> in every ride. Whether you need a <strong>quick city ride, an airport transfer, or an outstation journey</strong>, we ensure a seamless and stress-free travel experience.</p>
+        
+        <div class="about-highlights">
+            <div class="highlight">
+                <i class="fas fa-car"></i>
+                <h3>Wide Range of Vehicles</h3>
+                <p>From budget-friendly rides to luxury cars, we have it all.</p>
             </div>
-            
-            <div class="form-group">
-                <label for="pickup"><i class="fas fa-map-marker-alt"></i> Pickup Location</label>
-                <input type="text" id="pickup" placeholder="Enter pickup location" required>
+            <div class="highlight">
+                <i class="fas fa-user-shield"></i>
+                <h3>Safe & Secure Rides</h3>
+                <p>Our drivers are professionally trained to ensure your safety.</p>
             </div>
-            
-            <div class="form-group">
-                <label for="drop"><i class="fas fa-map-marker-alt"></i> Drop Location</label>
-                <input type="text" id="drop" placeholder="Enter drop location" required>
+            <div class="highlight">
+                <i class="fas fa-clock"></i>
+                <h3>24/7 Availability</h3>
+                <p>We operate round the clock to serve you anytime, anywhere.</p>
             </div>
-            
-            <div class="form-group">
-                <label for="vehicle-type"><i class="fas fa-car-side"></i> Vehicle Type</label>
-                <select id="vehicle-type" required>
-                    <option value="">Select Vehicle Type</option>
-                    <option value="sedan">Sedan</option>
-                    <option value="suv">SUV</option>
-                    <option value="luxury">Luxury</option>
-                </select>
-            </div>
-            
-            <div class="form-group">
-                <label for="date-time"><i class="fas fa-calendar-alt"></i> Date & Time</label>
-                <input type="datetime-local" id="date-time" required>
-            </div>
-            
-            <div class="form-group">
-                <label for="name"><i class="fas fa-user"></i> Your Name</label>
-                <input type="text" id="name" placeholder="Enter your name" required>
-            </div>
-            
-            <div class="form-group">
-                <label for="phone"><i class="fas fa-phone"></i> Phone Number</label>
-                <input type="tel" id="phone" placeholder="Enter your phone number" required>
-            </div>
-            
-            <div class="form-group">
-                <label for="payment"><i class="fas fa-wallet"></i> Payment Method</label>
-                <select id="payment" required>
-                    <option value="">Select Payment Method</option>
-                    <option value="cash">Cash</option>
-                    <option value="card">Card</option>
-                    <option value="upi">UPI</option>
-                </select>
-            </div>
-            
-            <button type="submit" class="submit-btn">Confirm Booking</button>
-        </form>
-    </section>
-
-    <!-- Testimonials -->
-    <section class="testimonials">
-        <h3>What Our Customers Say</h3>
-        <div class="testimonial-slider">
-            <div class="testimonial">
-                <p>"Great service, on-time pickup, and friendly driver!"</p>
-                <h4>— Ayesha K.</h4>
-            </div>
-            <div class="testimonial">
-                <p>"Affordable and comfortable rides every time!"</p>
-                <h4>— Rahul M.</h4>
-            </div>
-            <div class="testimonial">
-                <p>"Best taxi service in Bangalore! Highly recommended."</p>
-                <h4>— Vikram S.</h4>
+            <div class="highlight">
+                <i class="fas fa-tags"></i>
+                <h3>Transparent Pricing</h3>
+                <p>No hidden charges – pay what you see.</p>
             </div>
         </div>
-    </section>
 
-    <!-- Contact Buttons -->
+        <p>🚗 <strong>Your Journey, Our Responsibility!</strong></p>
+        <div><h3>Prices may vary as per the booking location</h3></div>
+    </div>
+</section>    
+
+<section class="fare-details">
+    <h3>Fare Details</h3>
+    <table class="fare-table">
+        <tr>
+            <th>Vehicle</th>
+            <th>Fare for 4 Hrs</th>
+            <th>Fare for 8 Hrs</th>
+            <th>Fare Extra. Hrs</th>
+            <th>Fare Extra. Kms</th>
+            <th>To Airport</th>
+            <th>From Airport</th>
+            <th>Fare Per Km</th>
+            <th>Driver Bata</th>
+        </tr>
+        <tr>
+            <td>Dizire / Etios / Logan</td>
+            <td>₹1200/-</td>
+            <td>₹2200/-</td>
+            <td>₹140/-</td>
+            <td>₹13/-</td>
+            <td>₹1000/-</td>
+            <td>₹1000/-</td>
+            <td>₹12/-</td>
+            <td>₹350/-</td>
+        </tr>
+        <tr>
+            <td>Innova</td>
+            <td>₹1800/-</td>
+            <td>₹3000/-</td>
+            <td>₹200/-</td>
+            <td>₹18/-</td>
+            <td>₹2000/-</td>
+            <td>₹2000/-</td>
+            <td>₹16/-</td>
+            <td>₹400/-</td>
+        </tr>
+        <tr>
+            <td>Innova Crysta</td>
+            <td>₹1500/-</td>
+            <td>₹3300/-</td>
+            <td>₹200/-</td>
+            <td>₹20/-</td>
+            <td>₹2000/-</td>
+            <td>₹2000/-</td>
+            <td>₹18/-</td>
+            <td>₹400/-</td>
+        </tr>
+    </table>
+</section>
+
+<section class="booking-form-container">
+    <h2>Book Your Ride 🚖</h2>
+    <form id="booking-form">
+        <div class="form-group">
+            <label for="ride-type"><i class="fas fa-car"></i> Ride Type</label>
+            <select id="ride-type" required>
+                <option value="">Select Ride Type</option>
+                <option value="local">Local</option>
+                <option value="airport">Airport</option>
+                <option value="outstation">Outstation</option>
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label for="pickup"><i class="fas fa-map-marker-alt"></i> Pickup Location</label>
+            <input type="text" id="pickup" placeholder="Enter pickup location" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="drop"><i class="fas fa-map-marker-alt"></i> Drop Location</label>
+            <input type="text" id="drop" placeholder="Enter drop location" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="vehicle-type"><i class="fas fa-car-side"></i> Vehicle Type</label>
+            <select id="vehicle-type" required>
+                <option value="">Select Vehicle Type</option>
+                <option value="sedan">Sedan</option>
+                <option value="suv">SUV</option>
+                <option value="luxury">Luxury</option>
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label for="date-time"><i class="fas fa-calendar-alt"></i> Date & Time</label>
+            <input type="datetime-local" id="date-time" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="name"><i class="fas fa-user"></i> Your Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="phone"><i class="fas fa-phone"></i> Phone Number</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="payment"><i class="fas fa-wallet"></i> Payment Method</label>
+            <select id="payment" required>
+                <option value="">Select Payment Method</option>
+                <option value="cash">Cash</option>
+                <option value="card">Card</option>
+                <option value="upi">UPI</option>
+            </select>
+        </div>
+        
+        <button type="submit" class="submit-btn">Confirm Booking</button>
+    </form>
+</section>
+
+<section class="testimonials">
+    <h3>What Our Customers Say</h3>
+    <div class="testimonial-slider">
+        <div class="testimonial">
+            <p>"Great service, on-time pickup, and friendly driver!"</p>
+            <h4>— Ayesha K.</h4>
+        </div>
+        <div class="testimonial">
+            <p>"Affordable and comfortable rides every time!"</p>
+            <h4>— Rahul M.</h4>
+        </div>
+        <div class="testimonial">
+            <p>"Best taxi service in Bangalore! Highly recommended."</p>
+            <h4>— Vikram S.</h4>
+        </div>
+    </div>
+</section>
+
+
+    <!-- <img src="car-image.jpg" loading="lazy" alt="Taxi"> -->
+
     <a href="tel:+918904887257" class="call-btn">🚖 📞 Call Now</a>
-    <a href="https://wa.me/918904887257" class="whatsapp-btn" target="_blank">
-        <i class="fab fa-whatsapp"></i>
-    </a>
 
-    <!-- JavaScript -->
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/918904887257" class = "whatsapp-float" target="_blank" rel="noopener">
+    <i class="fab fa-whatsapp"></i>
+    </a>            
+
+    <nav class="navbar">
+        <h1>Akbar Taxi Services</h1>
+        <button class="about-btn" onclick="openAbout()">About Us</button>
+    </nav>
+
+
     <script src="cab.js"></script>
 </body>
 </html>
